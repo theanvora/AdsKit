@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "AdsKit",
     platforms: [
-        .iOS("26.0")
+        .iOS(.v16)
     ],
     products: [
         .library(name: "AdsCore", targets: ["AdsCore"]),
