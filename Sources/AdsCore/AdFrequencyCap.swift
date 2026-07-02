@@ -1,3 +1,10 @@
+//
+//  AdFrequencyCap.swift
+//  AdsKit
+//
+//  Created by Anvora on 02/07/2026.
+//
+
 import Foundation
 
 /// Rate-limits ad presentations: a minimum gap between impressions, a per-session

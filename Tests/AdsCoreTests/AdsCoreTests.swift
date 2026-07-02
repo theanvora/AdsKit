@@ -1,3 +1,10 @@
+//
+//  AdsCoreTests.swift
+//  AdsKit
+//
+//  Created by Anvora on 02/07/2026.
+//
+
 import XCTest
 @testable import AdsCore
 

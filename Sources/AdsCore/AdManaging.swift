@@ -1,3 +1,10 @@
+//
+//  AdManaging.swift
+//  AdsKit
+//
+//  Created by Anvora on 02/07/2026.
+//
+
 import SwiftUI
 
 /// The reward returned when a user finishes a rewarded ad.

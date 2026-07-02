@@ -1,3 +1,10 @@
+//
+//  BannerAdView.swift
+//  AdsKit
+//
+//  Created by Anvora on 02/07/2026.
+//
+
 import SwiftUI
 
 /// A SwiftUI wrapper that hosts a banner `UIView` supplied by your ad adapter,

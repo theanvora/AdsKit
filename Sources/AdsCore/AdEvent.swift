@@ -1,3 +1,10 @@
+//
+//  AdEvent.swift
+//  AdsKit
+//
+//  Created by Anvora on 02/07/2026.
+//
+
 import Combine
 
 /// Ad formats supported by the abstraction.

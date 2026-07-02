@@ -1,3 +1,10 @@
+//
+//  Consent.swift
+//  AdsKit
+//
+//  Created by Anvora on 02/07/2026.
+//
+
 import Combine
 
 /// GDPR / UMP consent state, abstracted away from the SDK.

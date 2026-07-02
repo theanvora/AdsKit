@@ -1,3 +1,10 @@
+//
+//  AdConfiguration.swift
+//  AdsKit
+//
+//  Created by Anvora on 02/07/2026.
+//
+
 import Foundation
 
 /// The set of ad unit identifiers an app uses. Keep production IDs out of source
