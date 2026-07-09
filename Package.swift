@@ -7,10 +7,10 @@ let package = Package(
         .iOS(.v16)
     ],
     products: [
-        .library(name: "AdsCore", targets: ["AdsCore"]),
+        .library(name: "AnvyxAdsCore", targets: ["AnvyxAdsCore"]),
     ],
     targets: [
-        .target(name: "AdsCore"),
-        .testTarget(name: "AdsCoreTests", dependencies: ["AdsCore"]),
+        .target(name: "AnvyxAdsCore"),
+        .testTarget(name: "AnvyxAdsCoreTests", dependencies: ["AnvyxAdsCore"]),
     ]
 )

@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import AdsCore
+@testable import AnvyxAdsCore
 
 @MainActor
 final class AdsCoreTests: XCTestCase {
