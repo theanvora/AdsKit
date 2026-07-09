@@ -3,7 +3,7 @@
 A provider-agnostic advertising layer for iOS. `AdsCore` defines the abstraction — screens depend on a protocol, not on an ad SDK — so you can plug in Google Mobile Ads (or any network) behind it and toggle ads off for premium users.
 
 [![Swift](https://img.shields.io/badge/Swift-5.9+-orange.svg)](https://swift.org)
-[![Platform](https://img.shields.io/badge/iOS-26%2B-blue.svg)](https://developer.apple.com/ios/)
+[![Platform](https://img.shields.io/badge/iOS-16%2B-blue.svg)](https://developer.apple.com/ios/)
 [![SPM](https://img.shields.io/badge/SPM-compatible-brightgreen.svg)](https://swift.org/package-manager/)
 
 ## Features
@@ -16,13 +16,13 @@ A provider-agnostic advertising layer for iOS. `AdsCore` defines the abstraction
 ## Installation
 
 ```swift
-.package(url: "https://github.com/anvyxhq/AdsKit.git", from: "1.0.0")
+.package(url: "https://github.com/anvyxhq/AdsKit.git", branch: "main")
 ```
 
 ## Usage
 
 ```swift
-import AdsCore
+import AnvyxAdsCore
 
 // Inject NullAdsManager for premium users, or your Google adapter otherwise.
 let ads: AdManaging = purchases.hasActiveEntitlement ? NullAdsManager() : myGoogleAdsManager
@@ -45,7 +45,7 @@ the adapter (or the app) means the rest of your codebase only ever sees `AdsCore
 
 ## Requirements
 
-- iOS 26.0+ · Swift 5.9+
+- iOS 16+ · Swift 5.9+
 
 ## License
 
