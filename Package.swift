@@ -1,5 +1,12 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 6.2
 import PackageDescription
+
+let concurrencyBaseline: [SwiftSetting] = [
+    .swiftLanguageMode(.v6),
+    .defaultIsolation(nil),
+    .enableUpcomingFeature("NonisolatedNonsendingByDefault"),
+    .enableUpcomingFeature("InferIsolatedConformances"),
+]
 
 let package = Package(
     name: "AdsKit",
@@ -10,7 +17,7 @@ let package = Package(
         .library(name: "AnvyxAdsCore", targets: ["AnvyxAdsCore"]),
     ],
     targets: [
-        .target(name: "AnvyxAdsCore"),
-        .testTarget(name: "AnvyxAdsCoreTests", dependencies: ["AnvyxAdsCore"]),
+        .target(name: "AnvyxAdsCore", swiftSettings: concurrencyBaseline),
+        .testTarget(name: "AnvyxAdsCoreTests", dependencies: ["AnvyxAdsCore"], swiftSettings: concurrencyBaseline),
     ]
 )
